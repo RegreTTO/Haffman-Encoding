@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Encode debug",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "haffman.py",
+            "console": "integratedTerminal",
+            "args": "-e -i data.txt -t table.txt"
+        },
+        {
+            "name": "Decode debug",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "haffman.py",
+            "console": "integratedTerminal",
+            "args": "-d -i output.txt -t table.txt"
+        }
+    ]
+}
