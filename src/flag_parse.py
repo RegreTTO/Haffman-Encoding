@@ -10,7 +10,7 @@ parser = argparse.ArgumentParser(
     prog="haffman.py",
     description="Haffman encoding app",
 )
-actions = parser.add_argument_group("actions")
+actions = parser.add_argument_group("Actions")
 actions.add_argument(
     "-e",
     "--encode",
