@@ -1,3 +1,4 @@
+#!/bin/env python
 import sys
 from src.algo import decode, encode
 import config.cfg as cfg
